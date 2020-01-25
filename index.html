@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="none"></div>
+    <div class="container">
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="button">
+            <div class="buttonedit">
+                <p>Edit</p>
+            </div>
+            <div class="buttonstyle">
+                <p>Style</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="block1 block">
+                <textarea class="area"></textarea>
+                <div class="button buttonaddsave">
+                    <div class="buttonadd">
+                        <p>Add</p>
+                    </div>
+                    <div class="buttonsave">
+                        <p>Save</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block2 block">
+                <div class="formfeatures">
+                    <p>Font Size</p>
+                    <form name="userform1">
+                        <input type="radio" name="" onclick="fontSize()" value="12px"><span> 12px</span>
+                        <input type="radio" name="" onclick="fontSize()" value="14px"><span> 14px</span>
+                        <input type="radio" name="" checked onclick="fontSize()" value="16px"><span> 16px</span>
+                        <input type="radio" name="" onclick="fontSize()" value="18px"><span> 18px</span>
+                        <input type="radio" name="" onclick="fontSize()" value="20px"><span> 20px</span>
+                    </form>
+                    <p>Font Family</p>
+                    <select class="f1" name="" id="">
+                        <option value="cursive">cursive</option>
+                        <option value="fantasy">fantasy</option>
+                        <option value="sans-serif">sans-serif</option>
+                        <option value="Calibri">Calibri</option>
+                    </select>
+                    <p>Colors</p>
+                    <form class="f2" name="userform2">
+                        <input type="button" value="Color of text">
+                        <input type="button" value="Background color">
+                    </form>
+                    <p>Style:</p>
+                    <form name="userform3">
+                        <input type="checkbox" name="" id=""><span> Bold</span>
+                        <input type="checkbox" name="" id=""><span> Cursive text</span>
+                    </form>
+                </div>
+                <div class="color">
+                    <div class="blockcolor">
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                        <div class="blockcolnum"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box2">
+        <div class="tablelist">
+            <form name="userform4">
+                <h2>Choose what you want:</h2>
+                <input name="choose" type="radio"><span> table </span>
+                <input name="choose" type="radio"><span> list </span>
+            </form>
+        </div>
+        <div class="table">
+            <form name="userform5">
+                <p><span>Count TR:</span><input placeholder="Count TR:" type="text"></p>
+                <p><span>Count TD:</span><input placeholder="Count TD:" type="text"></p>
+                <h4>Add style to your table</h4>
+                <p><span>Width of TD:</span><input placeholder="Width of TD:" type="text"></p>
+                <p><span>Height of TD:</span><input placeholder="Height of TD:" type="text"></p>
+                <div class="tableparam">
+                    <span>Witdh of border: </span><input placeholder="Witdh" type="text">
+                    <span>Type of border: </span><select name="" id="">
+                        <option value="dashed">dashed</option>
+                        <option value="double">double</option>
+                        <option value="solid">solid</option>
+                    </select>
+                    <span>Color of border: </span><select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <input class="buttontablelist" type="button" value="Create table">
+            </form>
+        </div>
+
+        <div class="list">
+            <form name="userform6">
+                <p><span>Count li:</span><input type="text"></p>
+                <p><span>Type of marks:</span><select name="" id="">
+                        <option value="circle">circle</option>
+                        <option value="disc">disc</option>
+                        <option value="square">square</option>
+                    </select></p>
+                <input class="buttontablelist" value="Create list" type="button">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
